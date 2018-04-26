@@ -4,8 +4,8 @@ const { getLogin, postLogin, getSignup,  postSignup, pageNotFound, checkAuth } =
 
 module.exports = (req, res) => {
   const { url, method } = req;
-  req.authinticated = checkAuth.fun(req, res);
-  if (req.authinticated)
+  // req.authinticated = checkAuth.fun(req, res);
+  // if (req.authinticated)
   if (url === '/login' && method === 'GET') {
     getLogin(req, res);
   } else if (url === '/login' && method === 'POST') {
