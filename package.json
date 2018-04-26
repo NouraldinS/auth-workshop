@@ -1,0 +1,25 @@
+{
+  "name": "auth-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "cookie": "^0.3.1",
+    "env2": "^2.2.0",
+    "jsonwebtoken": "^8.2.1"
+  }
+}
